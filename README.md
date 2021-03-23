@@ -15,7 +15,7 @@ Connect to `psql` and create the `bookmark_manager` database:
 ```
 CREATE DATABASE bookmark_manager;
 ```
-To set-up the appropriate tables, connect to the database in `psql` and run the SQL scripts in `db/migrations`.
+To set-up the appropriate tables, connect to the database in `psql` (using `\c bookmark_manager;`) and run the SQL scripts in `db/migrations` in order.
 
 ### To run the Bookmark Manager app
 run `rackup -p 4567`
