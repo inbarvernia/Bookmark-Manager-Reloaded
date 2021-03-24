@@ -17,5 +17,14 @@ class BookmarkManager < Sinatra::Base
     erb(:'bookmarks/index')
   end
 
+  get '/create' do
+    erb(:'bookmarks/create')
+  end
+
+  post '/bookmarks' do
+    
+    redirect '/bookmarks'
+  end
+
   run if app_file == $PROGRAM_NAME
 end

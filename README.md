@@ -6,6 +6,11 @@ As a browser user
 So that I can go back to pages I've bookmarked
 I want to be able to view a list of bookmarks
 ```
+```
+As a browser user
+So I can find useful webpages again
+I want to be able to add them to bookmarks
+```
 ## How to use
 ### To set-up the project
 Clone this repository and then run `bundle install`.

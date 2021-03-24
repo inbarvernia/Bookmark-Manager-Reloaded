@@ -7,10 +7,18 @@
   <title>Bookmark Manager</title>
 </head>
 <body>
+
+<h1>Bookmarks:</h1>
   <ul>
     <% @bookmarks.each do |bookmark| %>
     <li><%= bookmark %></li>
     <% end %>
   </ul>
+
+  <p>
+  <form action='/create' method="get">
+  <button type="submit" name="New Bookmark">New Bookmark</button>
+  </form>
+  </p>
 </body>
 </html>
