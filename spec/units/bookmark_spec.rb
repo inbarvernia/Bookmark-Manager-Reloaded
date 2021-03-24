@@ -13,7 +13,7 @@ describe Bookmark do
 
   describe '.create' do 
     it 'creates a new bookmark' do 
-      mark = Bookmark.create('http://twitter.com')
+      mark = Bookmark.create('http://twitter.com', 'Twitter')
 
       expect(bookmarks).to include('http://twitter.com')
     end 
